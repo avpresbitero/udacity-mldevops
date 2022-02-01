@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-01-12T13:41:50.848335",
+    "startedAt": "2022-01-12T13:41:45.636331",
+    "docker": null,
+    "gpu": "GeForce GTX 1650 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_file",
+        "zen.txt",
+        "--artifact_name",
+        "zen_of_python",
+        "--artifact_type",
+        "text_file",
+        "--artifact_description",
+        "20 aphorisms about writing good python code"
+    ],
+    "state": "running",
+    "program": "upload_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines\\exercises\\exercise_1\\starter\\upload_artifact.py",
+    "git": {
+        "remote": "git@github.com:udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d453cd9d9a1860c67866ed6a894ed27748f80e76"
+    },
+    "email": "avpresbitero@gmail.com",
+    "root": "C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises",
+    "host": "LAPTOP-AH4KMKCD",
+    "username": "avpre",
+    "executable": "C:\\Users\\avpre\\anaconda3\\python.exe"
+}

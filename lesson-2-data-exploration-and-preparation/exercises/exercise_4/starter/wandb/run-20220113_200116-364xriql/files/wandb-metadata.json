@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-13T12:01:19.094716",
+    "startedAt": "2022-01-13T12:01:16.032781",
+    "docker": null,
+    "gpu": "GeForce GTX 1650 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "artifact",
+        "put",
+        "--name",
+        "exercise_4/genres_mod.parquet",
+        "--type",
+        "raw_data",
+        "--description",
+        "A modified version of the songs dataset",
+        "genres_mod.parquet"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\avpre\\anaconda3\\envs\\udacity\\Scripts\\wandb.exe\\__main__.py",
+    "git": {
+        "remote": "git@github.com:udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d453cd9d9a1860c67866ed6a894ed27748f80e76"
+    },
+    "email": "avpresbitero@gmail.com",
+    "root": "C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises",
+    "host": "LAPTOP-AH4KMKCD",
+    "username": "avpre",
+    "executable": "C:\\Users\\avpre\\anaconda3\\envs\\udacity\\python.exe"
+}

@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.9",
+    "heartbeatAt": "2022-02-01T02:12:18.675159",
+    "startedAt": "2022-02-01T02:12:16.008250",
+    "docker": null,
+    "gpu": "GeForce GTX 1650 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\avpre\\AppData\\Roaming\\jupyter\\runtime\\kernel-9dcaf6af-6132-41a9-83ff-405d654a8483.json"
+    ],
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises",
+    "git": {
+        "remote": "git@github.com:udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d453cd9d9a1860c67866ed6a894ed27748f80e76"
+    },
+    "email": "avpresbitero@gmail.com",
+    "host": "LAPTOP-AH4KMKCD",
+    "username": "avpre",
+    "executable": "C:\\Users\\avpre\\anaconda3\\envs\\mlflow-51a201f2a8eac0601d78afdf58767b0a4aa0f41a\\python.exe"
+}
