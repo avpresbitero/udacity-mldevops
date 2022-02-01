@@ -1,0 +1,11 @@
+collecting 1 item                                                                                                                                    collected 1 item                                                                                                                                     
+
+test_data.py::test_kolmogorov_smirnov PASSED
+
+================================================================= warnings summary ==================================================================
+..\..\..\..\..\..\..\..\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\wandb\vendor\watchdog\utils\bricks.py:175
+  C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\wandb\vendor\watchdog\utils\bricks.py:175: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+    class OrderedSet(collections.MutableSet):
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=========================================================== 1 passed, 1 warning in 15.66s ===========================================================

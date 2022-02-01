@@ -1,0 +1,28 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-01T08:40:02.242658",
+    "startedAt": "2022-02-01T08:39:58.787836",
+    "docker": null,
+    "gpu": "GeForce GTX 1650 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        "."
+    ],
+    "state": "running",
+    "program": "C:\\Users\\avpre\\anaconda3\\envs\\mlflow-7398531e5288219e428182dc4d6601ae57991d39\\Scripts\\pytest-script.py",
+    "codePath": "..\\..\\..\\..\\anaconda3\\envs\\mlflow-7398531e5288219e428182dc4d6601ae57991d39\\Scripts\\pytest-script.py",
+    "git": {
+        "remote": "git@github.com:avpresbitero/udacity-mldevops.git",
+        "commit": "685a301e42d8165928c0e86c81e359fdda5b43a5"
+    },
+    "email": "avpresbitero@gmail.com",
+    "root": "C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises",
+    "host": "LAPTOP-AH4KMKCD",
+    "username": "avpre",
+    "executable": "C:\\Users\\avpre\\anaconda3\\envs\\mlflow-7398531e5288219e428182dc4d6601ae57991d39\\python.exe"
+}
