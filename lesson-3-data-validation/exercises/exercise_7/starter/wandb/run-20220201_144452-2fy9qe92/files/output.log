@@ -1,0 +1,13 @@
+collecting 3 items                                                                                     collected 3 items                                                                                      
+
+test_data.py::test_column_presence_and_type PASSED
+test_data.py::test_class_names PASSED
+test_data.py::test_column_ranges PASSED
+
+========================================== warnings summary ===========================================
+..\..\..\..\..\..\..\..\anaconda3\envs\mlflow-a3af6a16a95faee04af2c40a1852613ae4973185\lib\site-packages\wandb\vendor\watchdog\utils\bricks.py:175
+  C:\Users\avpre\anaconda3\envs\mlflow-a3af6a16a95faee04af2c40a1852613ae4973185\lib\site-packages\wandb\vendor\watchdog\utils\bricks.py:175: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+    class OrderedSet(collections.MutableSet):
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+==================================== 3 passed, 1 warning in 11.31s ====================================

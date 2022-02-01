@@ -9,7 +9,7 @@ run = wandb.init(project="exercise_7", job_type="data_tests")
 
 @pytest.fixture(scope="session")
 def data():
-
+    # reads the datset from wandb
     local_path = run.use_artifact("exercise_5/preprocessed_data.csv:latest").file()
     df = pd.read_csv(local_path, low_memory=False)
 
@@ -73,6 +73,9 @@ def test_class_names(data):
     # is true for every row. For example, df['one'].isin(['a','b','c']).all() is True if
     # all values in column "one" are contained in the list 'a', 'b', 'c'
 
+    # enforcing in the column is in the list above
+    assert data['genre'].isin(known_classes).all()
+
 
 def test_column_ranges(data):
 
@@ -95,4 +98,10 @@ def test_column_ranges(data):
         # YOUR CODE HERE: check that the values in the column col_name are within the expected range
         # HINT: look at the .between method of pandas, and then use .all() like in the previous
         # test
-        pass
+
+        # second part is just a meaningful error message just in case the test
+        # fails so that it is easy to test
+        assert data[col_name].dropna().between(minimum, maximum).all(), (
+            f"Column {col_name} failed the test. Should be between {minimum} and {maximum}, "
+            f"instead min={data[col_name].min()} and max={data[col_name].max()}"
+        )
