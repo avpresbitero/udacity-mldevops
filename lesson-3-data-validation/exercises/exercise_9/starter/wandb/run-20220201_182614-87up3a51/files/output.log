@@ -1,0 +1,31 @@
+=============================================================================================== test session starts ================================================================================================
+platform win32 -- Python 3.9.10, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\python.exe
+cachedir: .pytest_cache
+rootdir: C:\
+collecting ... collecting 0 items / 1 error                                                                                                                                                                                        collected 0 items / 1 error                                                                                                                                                                                         
+
+====================================================================================================== ERRORS ======================================================================================================
+__________________________________________________________________________________________ ERROR collecting test session ___________________________________________________________________________________________
+C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\_pytest\runner.py:311: in from_call
+    result: Optional[TResult] = func()
+C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\_pytest\runner.py:341: in <lambda>
+    call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\_pytest\main.py:690: in collect
+    for direntry in visit(str(argpath), self._recurse):
+C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\_pytest\pathlib.py:613: in visit
+    yield from visit(entry.path, recurse)
+C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\_pytest\pathlib.py:613: in visit
+    yield from visit(entry.path, recurse)
+C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\_pytest\pathlib.py:598: in visit
+    for entry in os.scandir(path):
+E   PermissionError: [WinError 5] Access is denied: 'C:\\$Recycle.Bin\\S-1-5-18'
+================================================================================================= warnings summary =================================================================================================
+..\..\..\..\..\..\..\..\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\wandb\vendor\watchdog\utils\bricks.py:175
+  C:\Users\avpre\anaconda3\envs\mlflow-7398531e5288219e428182dc4d6601ae57991d39\lib\site-packages\wandb\vendor\watchdog\utils\bricks.py:175: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+    class OrderedSet(collections.MutableSet):
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+============================================================================================= short test summary info ==============================================================================================
+ERROR ..\..\..\..\..\..\..\..\..\.. - PermissionError: [WinError 5] Access is denied: 'C:\\$Recycle.Bin\\S-1-5-18'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+=========================================================================================== 1 warning, 1 error in 1.18s ============================================================================================

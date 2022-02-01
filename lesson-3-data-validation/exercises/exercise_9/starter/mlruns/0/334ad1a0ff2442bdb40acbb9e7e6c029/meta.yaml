@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/334ad1a0ff2442bdb40acbb9e7e6c029/artifacts
+end_time: 1643711258098
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 334ad1a0ff2442bdb40acbb9e7e6c029
+run_uuid: 334ad1a0ff2442bdb40acbb9e7e6c029
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643711236948
+status: 3
+tags: []
+user_id: avpre
