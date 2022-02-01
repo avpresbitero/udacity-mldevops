@@ -1,0 +1,37 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-01T04:41:28.260446",
+    "startedAt": "2022-02-01T04:41:24.758619",
+    "docker": null,
+    "gpu": "GeForce GTX 1650 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "exercise_5/preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "raw_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\avpre\\Documents\\Trainings\\mldevops\\nd0821-c2-build-model-workflow-exercises\\lesson-2-data-exploration-and-preparation\\exercises\\exercise_6\\starter\\run.py",
+    "codePath": "lesson-2-data-exploration-and-preparation\\exercises\\exercise_6\\starter\\run.py",
+    "git": {
+        "remote": "git@github.com:avpresbitero/udacity-mldevops.git",
+        "commit": "0b1abfd27aa53f484bc2fa3a417423558b981fb5"
+    },
+    "email": "avpresbitero@gmail.com",
+    "root": "C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises",
+    "host": "LAPTOP-AH4KMKCD",
+    "username": "avpre",
+    "executable": "C:\\Users\\avpre\\anaconda3\\envs\\mlflow-b536c99cab3f07bfeb0a1ad9e153575c07cd087e\\python.exe"
+}
