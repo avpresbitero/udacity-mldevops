@@ -1,0 +1,47 @@
+2022-02-01 12:27:15,974 INFO    MainThread:58596 [wandb_setup.py:_flush():69] setting env: {}
+2022-02-01 12:27:15,975 INFO    MainThread:58596 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-02-01 12:27:15,975 INFO    MainThread:58596 [wandb_init.py:_log_setup():334] Logging user logs to C:\Users\avpre\Documents\Trainings\mldevops\nd0821-c2-build-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_5\starter\wandb\run-20220201_122715-d2xpmk7a\logs\debug.log
+2022-02-01 12:27:15,975 INFO    MainThread:58596 [wandb_init.py:_log_setup():335] Logging internal logs to C:\Users\avpre\Documents\Trainings\mldevops\nd0821-c2-build-model-workflow-exercises\lesson-2-data-exploration-and-preparation\exercises\exercise_5\starter\wandb\run-20220201_122715-d2xpmk7a\logs\debug-internal.log
+2022-02-01 12:27:15,976 INFO    MainThread:58596 [wandb_init.py:init():367] calling init triggers
+2022-02-01 12:27:15,977 INFO    MainThread:58596 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2022-02-01 12:27:15,977 INFO    MainThread:58596 [wandb_init.py:init():416] starting backend
+2022-02-01 12:27:15,977 INFO    MainThread:58596 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2022-02-01 12:27:16,000 INFO    MainThread:58596 [backend.py:ensure_launched():123] starting backend process...
+2022-02-01 12:27:16,081 INFO    MainThread:58596 [backend.py:ensure_launched():127] started backend process with pid: 51784
+2022-02-01 12:27:16,082 INFO    MainThread:58596 [wandb_init.py:init():421] backend started and connected
+2022-02-01 12:27:16,084 INFO    MainThread:58596 [wandb_init.py:init():461] updated telemetry
+2022-02-01 12:27:16,084 INFO    MainThread:58596 [wandb_init.py:init():480] communicating current version
+2022-02-01 12:27:17,012 INFO    MainThread:58596 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.12.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-02-01 12:27:17,014 INFO    MainThread:58596 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2022-02-01 12:27:17,489 INFO    MainThread:58596 [wandb_init.py:init():518] starting run threads in backend
+2022-02-01 12:27:18,549 INFO    MainThread:58596 [wandb_run.py:_console_start():1476] atexit reg
+2022-02-01 12:27:18,550 INFO    MainThread:58596 [wandb_run.py:_redirect():1339] redirect: SettingsConsole.WRAP
+2022-02-01 12:27:18,551 INFO    MainThread:58596 [wandb_run.py:_redirect():1374] Wrapping output streams.
+2022-02-01 12:27:18,551 INFO    MainThread:58596 [wandb_run.py:_redirect():1390] Redirects installed.
+2022-02-01 12:27:18,551 INFO    MainThread:58596 [wandb_init.py:init():542] run started, returning control to user process
+2022-02-01 12:27:21,190 INFO    MainThread:58596 [wandb_run.py:_atexit_cleanup():1446] got exitcode: 0
+2022-02-01 12:27:21,191 INFO    MainThread:58596 [wandb_run.py:_restore():1418] restore
+2022-02-01 12:27:28,245 INFO    MainThread:58596 [wandb_run.py:_wait_for_finish():1568] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 6778241
+  total_bytes: 6778241
+}
+
+2022-02-01 12:27:30,251 INFO    MainThread:58596 [wandb_run.py:_wait_for_finish():1568] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 6779123
+  total_bytes: 6779123
+}
+
+2022-02-01 12:27:31,382 INFO    MainThread:58596 [wandb_run.py:_show_files():1790] logging synced files

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/3b9b5b2c421e4070bbdf36f72426e67a/artifacts
+end_time: 1643689060934
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 3b9b5b2c421e4070bbdf36f72426e67a
+run_uuid: 3b9b5b2c421e4070bbdf36f72426e67a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643689056853
+status: 4
+tags: []
+user_id: avpre
