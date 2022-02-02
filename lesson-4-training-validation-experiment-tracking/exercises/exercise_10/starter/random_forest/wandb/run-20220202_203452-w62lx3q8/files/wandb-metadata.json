@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.4.0-96-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-02-02T12:34:55.587436",
+    "startedAt": "2022-02-02T12:34:52.450387",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "exercise_6/data_train.csv:latest",
+        "--model_config",
+        "/home/lpresbitero/mldevops/udacity-mldevops/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/outputs/2022-02-02/20-33-16/random_forest_config.json"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py",
+    "git": {
+        "remote": "git@github.com:avpresbitero/udacity-mldevops.git",
+        "commit": "1928fd21ca7357bd8e78a4901a288755549b960c"
+    },
+    "email": "avpresbitero@gmail.com",
+    "root": "/home/lpresbitero/mldevops/udacity-mldevops",
+    "host": "jupyter-lpresbitero",
+    "username": "lpresbitero",
+    "executable": "/home/lpresbitero/.conda/envs/mlflow-04dc18e87776aad288f8cabb3fd2dc65eef7059f/bin/python"
+}
