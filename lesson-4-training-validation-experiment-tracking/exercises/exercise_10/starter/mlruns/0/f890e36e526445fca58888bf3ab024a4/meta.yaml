@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lpresbitero/mldevops/udacity-mldevops/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/f890e36e526445fca58888bf3ab024a4/artifacts
+end_time: 1643803904032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: f890e36e526445fca58888bf3ab024a4
+run_uuid: f890e36e526445fca58888bf3ab024a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643803883869
+status: 4
+tags: []
+user_id: lpresbitero
