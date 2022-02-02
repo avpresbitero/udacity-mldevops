@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/demo/hydra_sweeps/mlruns/0/595e4778762f44a88ecb35d311b68632/artifacts
+end_time: 1643791394973
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 595e4778762f44a88ecb35d311b68632
+run_uuid: 595e4778762f44a88ecb35d311b68632
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643791382592
+status: 3
+tags: []
+user_id: lpresbitero

@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.4.0-96-generic-x86_64-with-glibc2.31",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-02T08:40:31.617419",
+    "startedAt": "2022-02-02T08:40:30.131298",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [
+        "--a",
+        "5",
+        "--b",
+        "5"
+    ],
+    "state": "running",
+    "program": "/home/lpresbitero/mldevops/udacity-mldevops/lesson-4-training-validation-experiment-tracking/demo/hydra_sweeps/component/noop.py",
+    "codePath": "lesson-4-training-validation-experiment-tracking/demo/hydra_sweeps/component/noop.py",
+    "git": {
+        "remote": "git@github.com:avpresbitero/udacity-mldevops.git",
+        "commit": "f08529f588cb502811a3296c5b255d7bb7dc98fa"
+    },
+    "email": "avpresbitero@gmail.com",
+    "root": "/home/lpresbitero/mldevops/udacity-mldevops",
+    "host": "jupyter-lpresbitero",
+    "username": "lpresbitero",
+    "executable": "/home/lpresbitero/.conda/envs/mlflow-33ea69a16ba50ff512af0bbeac5b8c5f76dd2af0/bin/python"
+}
