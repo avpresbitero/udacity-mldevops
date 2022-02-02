@@ -96,6 +96,25 @@ def export_model(run, pipe, X_val, val_pred, export_artifact):
         export_path = os.path.join(temp_dir, "model_export")
 
         #### YOUR CODE HERE
+        mlflow.sklearn.save_model(
+            pipe,
+            export_path,
+            serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE,
+            # schema of input
+            signature=signature,
+            # some random example
+            input_example=X_val.iloc[:2]
+        )
+
+        artifact = wandb.Artifact(
+            export_artifact,
+            type="model_export",
+            description="Random Forest pipeline export"
+        )
+
+        artifact.add_dir(export_path)
+        run.log_artifact(artifact)
+
         # Save the pipeline in the export_path directory using mlflow.sklearn.save_model
         # function. Provide the signature computed above ("signature") as well as a few
         # examples (input_example=X_val.iloc[:2]), and use the CLOUDPICKLE serialization
