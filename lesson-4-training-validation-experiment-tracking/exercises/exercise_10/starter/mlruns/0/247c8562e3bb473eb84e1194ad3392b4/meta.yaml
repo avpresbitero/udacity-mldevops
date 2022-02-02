@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/avpre/Documents/Trainings/mldevops/nd0821-c2-build-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/247c8562e3bb473eb84e1194ad3392b4/artifacts
+end_time: 1643731216447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 247c8562e3bb473eb84e1194ad3392b4
+run_uuid: 247c8562e3bb473eb84e1194ad3392b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643731211632
+status: 4
+tags: []
+user_id: avpre
